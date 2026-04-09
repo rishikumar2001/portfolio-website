@@ -1,0 +1,417 @@
+@media (max-width: 768px) {
+
+  /* ---- GLOBAL CENTER FIX ---- */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  section {
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  section p,
+  section dl,
+  section dd,
+  section dt {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+  /* ---- NAVBAR ---- */
+  .navbar {
+    flex-wrap: wrap;
+    padding: 14px 20px;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .logo {
+    font-size: 1.3rem;
+    flex: 1;
+    text-align: center;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 4px 8px;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+    gap: 10px;
+    list-style: none;
+    margin: 0 auto;
+  }
+
+  .nav-links li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links li a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #menu-toggle:checked ~ .nav-links {
+    display: flex;
+  }
+
+
+  /* ---- HOME SECTION ---- */
+  #home {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 20px 40px;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .class-image {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .center h1 {
+    font-size: 1.6rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .center p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    text-align: center;
+    width: 100%;
+  }
+
+
+  /* ---- SECTION TITLES ---- */
+  .section-title {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0 16px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  /* ---- EDUCATION ---- */
+  .edu-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 16px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .edu-card {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .edu-card img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .edu-card h3 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .edu-popup {
+    position: static;
+    display: block;
+    margin: 10px auto 0;
+    opacity: 1;
+    transform: none;
+    box-shadow: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .edu-popup p {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+  /* ---- SKILLS ---- */
+  .glass-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 16px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .glass-card {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .glass-card h3 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .links {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .links a {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+
+  /* ---- EXPERIENCE / PROJECTS ---- */
+  .glass-card img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .glass-content {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .glass-content p,
+  .glass-content dl,
+  .glass-content dt,
+  .glass-content dd {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .btn-group {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .btn-group a {
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+
+  /* ---- CONTACT ---- */
+  .contact-grid {
+    grid-template-columns: 1fr;
+    padding: 0 16px;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+    justify-items: center;
+  }
+
+  .glass-contact-card {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .glass-contact-card h2 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .contact-details {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .contact-details p {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .glass-contact-card iframe {
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .glass-form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input-box {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .glass-form button {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  /* ---- FOOTER ---- */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer-col {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer-contact p {
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .social-icons {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer-bottom {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 16px 12px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

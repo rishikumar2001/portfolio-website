@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">My Portfolio</div>
+        <!-- Hidden checkbox -->
+        <input type="checkbox" id="menu-toggle">
+
+        <!-- Hamburger icon -->
+        <label for="menu-toggle" class="menu-icon">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Projects</a></li>
+            <li><a href="#contact">Contact me</a></li>
+        </ul>
+    </nav>
+  <section id="home">
+    <img src="Assests/Photo.jpg" alt="" class="class-image">
+    <div class="center">
+        <h1>About Me</h1>
+        <p>
+            Hi, I'm Rishi Kumar, an Aspiring Web Developer passionate about creating clean and responsive websites. 
+            I have experience working with HTML, CSS, Bootstrap, and basic Python and SQL. I enjoy building user-friendly 
+            interfaces and continuously improving my coding skills by working on real-time projects. Currently, I am looking 
+            for opportunities where I can grow as a developer and contribute to meaningful projects. I am a quick learner, 
+            self-motivated, and always eager to learn new technologies.
+        </p>
+    </div>
+</section>
+
+<section id="education">
+    <h1 class="section-title">Education</h1>
+
+    <div class="edu-container">
+
+        <div class="edu-card">
+            <img src="Assests/sch-image.jpg" alt="school Image">
+            <h3>School (SSLC)</h3>
+
+            <div class="edu-popup">
+                <p><strong>School Name:</strong> Bharathidaasan Matric Hr Sec School</p>
+                <p><strong>Address:</strong> Orikkai, Kanchipuram</p>
+                <p><strong>Year:</strong> 2017</p>
+                <p><strong>Percentage:</strong> 91%</p>
+            </div>
+        </div>
+
+        <div class="edu-card">
+            <img src="Assests/sch-image - 1.jpg" alt="school Image">
+            <h3>School (HSC)</h3>
+
+            <div class="edu-popup">
+                <p><strong>School Name:</strong> Bharathidaasan Matric Hr Sec School</p>
+                <p><strong>Address:</strong> Orikkai, Kanchipuram</p>
+                <p><strong>Year:</strong> 2019</p>
+                <p><strong>Percentage:</strong> 80%</p>
+            </div>
+        </div>
+
+        <div class="edu-card">
+            <img src="Assests/college-image.jpg" alt="college Image">
+            <h3>College</h3>
+
+            <div class="edu-popup">
+                <p><strong>College Name:</strong> Sri Sai Ram Institute Of Technology</p>
+                <p><strong>Address:</strong> West Tambaram, Chennai</p>
+                <p><strong>Year:</strong> 2023</p>
+                <p><strong>Percentage:</strong> 80%</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="skills">
+    <h1 class="section-title">My Skills</h1>
+    <h2 class="subtitle">Python Full Stack Developer</h2>
+
+    <div class="glass-container">
+
+        <!-- Frontend -->
+        <div class="glass-card">
+            <h3>Frontend Development</h3>
+            <div class="links">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+                    <i class="fab fa-html5"></i> HTML
+                </a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                    <i class="fab fa-css3-alt"></i> CSS
+                </a>
+                <a href="https://getbootstrap.com/" target="_blank">
+                    <i class="fab fa-bootstrap"></i> Bootstrap
+                </a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                    <i class="fab fa-js"></i> JavaScript
+                </a>
+                <a href="https://react.dev/" target="_blank">
+                    <i class="fab fa-react"></i> React
+                </a>
+            </div>
+        </div>
+
+        <!-- Database -->
+        <div class="glass-card">
+            <h3>Database</h3>
+            <div class="links">
+                <a href="https://www.mysql.com/" target="_blank">
+                    <i class="fas fa-database"></i> MySQL
+                </a>
+            </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="glass-card">
+            <h3>Backend Development</h3>
+            <div class="links">
+                <a href="https://www.python.org/" target="_blank">
+                    <i class="fab fa-python"></i> Python
+                </a>
+                <a href="https://www.djangoproject.com/" target="_blank">
+                    <i class="fas fa-leaf"></i> Django
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="experience">
+    
+    <h1 class="section-title">My Internship Projects & Work Experience</h1>
+
+    <div class="glass-container">
+
+        <!-- Internship -->
+        <div class="glass-card">
+            <img src="Assests/intern-logo.jpg" alt="internship logo">
+
+            <h3>Internship</h3>
+
+            <div class="glass-content">
+                <p><strong>Company:</strong> LetsGrowMore</p>
+                <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+                <p><strong>Tools:</strong> VS Code</p>
+                <p><strong>Duration:</strong> 1 Month</p>
+
+                <dl>
+                    <dt><strong>Project:</strong></dt>
+                    <dd>Developed responsive web pages using HTML, CSS, Javascript.</dd>
+                    <dd>Improved user experience with smooth transitions</dd>
+                    <dd>Implemented Form validation using Javascript.</dd>
+                    <dd>Prevented submission of incomplete or incorrect forms</dd>
+                </dl>
+
+                <div class="btn-group">
+                    <a href="https://github.com/rishikumar2001/LGM-WEB-TASK-1" target="_blank">View Project</a>
+                    <a href="Assests/Rishi kumar internship.pdf" target="_blank">Certificate</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Work Experience -->
+        <div class="glass-card">
+            <img src="Assests/sutherland-photo.jpg" alt="company image">
+
+            <h3>Work Experience</h3>
+
+            <div class="glass-content">
+                <p><strong>Company:</strong> Sutherland Global Solutions</p>
+                <p><strong>Role:</strong> Customer Support Associate</p>
+                <p><strong>Duration:</strong> 6 Months</p>
+
+                <dl>
+                    <dt><strong>Responsibilities:</strong></dt>
+                    <dd>Assisted customers with their queries and resolved issues promptly.</dd>
+                    <dd>Maintained accurate records of customer interactions.</dd>
+                    <dd>Provided support for product demonstrations and training sessions.</dd>
+                    <dd>Maintained accurate records of customer interactions using AC3 tools.</dd>
+                </dl>
+
+                <div class="btn-group">
+                    <a href="Assests/Rishi_relieving_certificate.pdf" target="_blank">Certificate</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="contact">
+
+    <h1 class="section-title">Contact Me</h1>
+
+    <div class="contact-grid">
+
+        <!-- LEFT: Map + Contact Info -->
+        <div class="glass-contact-card">
+            <iframe 
+                src="https://www.google.com/maps?q=Kanchipuram&output=embed"
+                loading="lazy">
+            </iframe>
+
+            <div class="contact-details">
+                <h2>Contact Information</h2>
+                <p><i class="fas fa-phone"></i> <strong>Mobile:</strong> 6369140841</p>
+                <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> Kanchipuram</p>
+            </div>
+        </div>
+
+        <!-- RIGHT: Contact Form -->
+        <div class="glass-contact-card">
+            <h2>Send Message</h2>
+
+            <form class="glass-form">
+
+                <div class="input-box">
+                    <input type="text" required>
+                    <label>Name</label>
+                </div>
+
+                <div class="input-box">
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+
+                <div class="input-box">
+                    <input type="tel" maxlength="10" required>
+                    <label>Phone</label>
+                </div>
+
+                <div class="input-box">
+                    <textarea rows="4" required></textarea>
+                    <label>Message</label>
+                </div>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-col footer-about">
+            <h3>Rishi Kumar</h3>
+            <p>Web Developer | Responsive Design | Problem Solver</p>
+            <p>Building modern, responsive websites with clean code and thoughtful design.</p>
+            <div class="social-icons">
+                <a href="#" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="footer-col footer-links">
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="education.html">Education</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col footer-contact">
+            <h3>Get in Touch</h3>
+            <p><i class="fas fa-phone"></i> <a href="tel:+916369140841">+91 6369140841</a></p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:rishikumarsanthi23@gmail.com">rishikumarsanthi23@gmail.com</a></p>
+            <p><i class="fas fa-map-marker-alt"></i> Kanchipuram, India</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 Rishi Kumar | Crafted with care in India | All rights reserved</p>
+    </div>
+</footer>
+</body>
+</html>
